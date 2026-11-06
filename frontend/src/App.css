@@ -1,0 +1,242 @@
+/* ================================
+   ROLE SELECTION
+================================ */
+
+.role-buttons {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.role-buttons button {
+    flex: 1;
+    padding: 12px 15px;
+
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+
+    background: #ffffff;
+    color: #374151;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.role-buttons button:hover {
+    border-color: #4f46e5;
+}
+
+.role-buttons .active-role {
+    background: #4f46e5;
+    color: #ffffff;
+    border-color: #4f46e5;
+}
+
+
+/* ================================
+   BRAND
+================================ */
+
+.brand-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.brand-icon {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+
+    background: linear-gradient(
+        135deg,
+        #4f46e5,
+        #06b6d4
+    );
+
+    font-size: 25px;
+}
+
+.brand-section h1 {
+    margin: 0;
+    color: #4f46e5;
+}
+
+.brand-section p {
+    margin: 3px 0 0;
+    color: #64748b;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+
+/* ================================
+   LABEL
+================================ */
+
+.login-card label {
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 15px;
+
+    color: #1e293b;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.login-card label span {
+    color: #ef4444;
+}
+
+
+/* ================================
+   INPUT
+================================ */
+
+.login-card input {
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 13px 14px;
+
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+
+    font-size: 14px;
+
+    outline: none;
+
+    transition: border 0.2s ease,
+                box-shadow 0.2s ease;
+}
+
+.login-card input:focus {
+    border-color: #4f46e5;
+
+    box-shadow:
+        0 0 0 3px rgba(79, 70, 229, 0.12);
+}
+
+
+/* ================================
+   LOGIN BUTTON
+================================ */
+
+.login-button {
+    width: 100%;
+
+    margin-top: 22px;
+
+    padding: 14px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #4f46e5;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+.login-button:hover {
+    background: #4338ca;
+}
+
+.login-button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+/* ==============================
+   ROLE BUTTONS
+============================== */
+
+.role-buttons {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.role-buttons button {
+    flex: 1;
+    padding: 12px;
+
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+
+    background: #ffffff;
+    color: #374151;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.role-buttons button:hover {
+    border-color: #4f46e5;
+}
+
+.role-buttons .active-role {
+    background: #4f46e5;
+    color: #ffffff;
+    border-color: #4f46e5;
+}
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.home-button {
+    display: inline-block;
+    padding: 13px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.student-button {
+    background: #4f46e5;
+    color: white;
+}
+
+.student-button:hover {
+    background: #4338ca;
+}
+
+.register-button {
+    background: white;
+    color: #4f46e5;
+    border: 1px solid #4f46e5;
+}
+
+.register-button:hover {
+    background: #eef2ff;
+}
+
+.admin-button {
+    background: #111827;
+    color: white;
+}
+
+.admin-button:hover {
+    background: #1f2937;
+}
